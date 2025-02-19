@@ -1,0 +1,16 @@
+.navigate-wrapper {
+    padding: 1rem; 
+    background-color: #2d3748;
+    display: flex;
+}
+
+.link {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-left: 2%;
+    color: white;
+    text-decoration: none;
+    &:hover {
+        color: blue;
+    }
+}

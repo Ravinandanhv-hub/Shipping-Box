@@ -1,0 +1,54 @@
+
+.form-wrapper {
+    max-width: 32rem;
+    margin: 2.5rem auto;
+    padding: 1rem;
+    background-color: #f7fafc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+}
+
+h2 {
+    font-size: 1.5rem; 
+    font-weight: 600;
+    margin-bottom: 1rem; 
+}
+
+.error {
+    color: #f56565; 
+    margin-bottom: 1rem; 
+}
+
+label {
+    display: block; 
+    color: #4a5568; 
+    margin-bottom: 0.5rem; 
+}
+
+input, select {
+    width: 100%; 
+    padding: 0.5rem; 
+    border: 1px solid #d2d6dc;
+    border-radius: 0.25rem;
+    &[type="color"] {
+        height: 2.5rem;
+    }
+}
+
+.submit {
+    background-color: #4299e1;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border-color: #4299e1;
+}
+
+.mb {
+    margin-bottom: 1rem;
+}
+
+.shippingCost {
+    display: block; 
+    color: #4a5568; 
+    margin-bottom: 0.5rem; 
+}
