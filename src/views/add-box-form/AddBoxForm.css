@@ -41,6 +41,7 @@ input, select {
     padding: 0.5rem 1rem;
     border-radius: 0.25rem;
     border-color: #4299e1;
+    cursor: pointer;
 }
 
 .mb {
