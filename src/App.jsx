@@ -1,7 +1,7 @@
 import './App.css'
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Navbar } from './components/nav-bar/navbar';
+import { Navbar } from './components/nav-bar/Navbar';
 import { AddBoxForm } from './views/add-box-form/AddBoxForm';
 import { ListBoxes } from './views/list-boxes/ListBoxes';
 
