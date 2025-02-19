@@ -36,6 +36,7 @@ export function AddBoxForm({ addBox }) {
     addBox({ receiverName, weight, boxColor, destination, shippingCost });
     setFormData({ receiverName: '', weight: '', boxColor: '#ffffff', destination: 'Sweden' });
     setError('');
+    alert('Submitted successfully');
   };
 
   return (
