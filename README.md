@@ -27,8 +27,8 @@ Step5:- Create two functional components AddBoxForm.
             1. AddBoxForm: For adding box details.
             2. ListBoxes: For listing all the added boxes.
 
-Step6:- In AddBoxForm component use standard HTML elements like <form>, <input>, and <button> to create a form for adding box details.
+Step6:- In AddBoxForm component use standard HTML elements like form, input, and button tags to create a form for adding box details.
 
-Step7:- In ListBoxes component use an HTML <table> to display the list of added boxes.
+Step7:- In ListBoxes component use an HTML table tag to display the list of added boxes.
 
 Note:- Use props for state management between components.
